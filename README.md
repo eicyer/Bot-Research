@@ -1,8 +1,8 @@
-# 🛰️ Comparative Analysis of Bot Behavior Across Geopolitical Events
+# Comparative Analysis of Bot Behavior Across Geopolitical Events
 
 This repository supports the research paper titled **"Comparative Analysis of Bot Behavior Across Different Geopolitical Events to Evaluate Bot Strategy and Impact"**, exploring how bot campaigns function in different international contexts using real-world Twitter/X datasets.
 
-## 📊 Objective
+## Objective
 
 Analyze bot activity across four key datasets to understand:
 - Temporal tweet patterns
@@ -11,7 +11,7 @@ Analyze bot activity across four key datasets to understand:
 - Sentiment and tone of messages (VADER)
 - Impact of coordinated vs. non-coordinated bot operations
 
-## 🗂️ Datasets Used
+## Datasets Used
 
 | Dataset | Description |
 |--------|-------------|
@@ -22,7 +22,7 @@ Analyze bot activity across four key datasets to understand:
 
 > Due to licensing and size, raw datasets are not hosted here. You may access them from the original sources linked in the paper.
 
-## 🧪 Methodology
+## Methodology
 
 - **Temporal Analysis**: `pandas` resampling & descriptive stats
 - **Trend Detection**: 30-day rolling means
@@ -30,7 +30,7 @@ Analyze bot activity across four key datasets to understand:
 - **Sentiment Analysis**: `vaderSentiment` for emotional tone scoring
 - **Visualization**: `matplotlib` for daily activity plots and sentiment histograms
 
-## 🧾 Example Usage
+## Example Usage
 
 ```python
 # Load and preprocess Russian dataset
